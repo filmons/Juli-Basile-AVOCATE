@@ -1545,6 +1545,23 @@ img {
     text-align: center;
   }
 
+  /* Réduction des espacements entre sections sur mobile */
+  .section-split {
+    padding: 4rem 0 3rem 0;
+  }
+
+  .section-expertises {
+    padding: 3rem 0;
+  }
+
+  .section-actualites {
+    padding: 3rem 0;
+  }
+
+  .section-contact {
+    padding: 3rem 0;
+  }
+
   .split-layout {
     grid-template-columns: 1fr;
     gap: 3rem;
@@ -1724,6 +1741,23 @@ img {
   .btn-hero-secondary {
     padding: 0.875rem 2rem;
     font-size: 0.95rem;
+  }
+
+  /* Espacements encore plus réduits sur petits mobiles */
+  .section-split {
+    padding: 3rem 0 2rem 0;
+  }
+
+  .section-expertises {
+    padding: 2rem 0;
+  }
+
+  .section-actualites {
+    padding: 2rem 0;
+  }
+
+  .section-contact {
+    padding: 2rem 0;
   }
 
   .split-content h2,
