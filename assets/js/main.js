@@ -326,7 +326,7 @@
     }).addTo(map);
 
     // Popup optionnelle avec plus d'infos
-    mainMarker.bindPopup('<div style="font-family: sans-serif; text-align: center; padding: 0.5rem;"><strong style="color: #6BA4D6; font-size: 1.1rem;">Julia Basile - Avocate</strong><br><span style="color: #7F8C8D; font-size: 0.9rem;">123 Avenue de la Justice<br>75008 Paris</span></div>');
+    mainMarker.bindPopup('<div style="font-family: sans-serif; text-align: center; padding: 0.5rem;"><strong style="color: #6BA4D6; font-size: 1.1rem;">Julia Basile - Avocate</strong><br><span style="color: #7F8C8D; font-size: 0.9rem;">103 rue La Boétie<br>75008 Paris</span></div>');
 
     // Fonction pour créer une icône POI avec label
     function createPoiIcon(name) {
